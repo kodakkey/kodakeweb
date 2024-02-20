@@ -1,23 +1,44 @@
-Clone this repository:
+# Kodak Web
 
+This is the repository for the Kodak Web project.
 
+## Getting Started
 
-git clone https://github.com/kodakwebservices/kodakweb.git
+To get started with the development environment, follow these steps:
 
-Change directory to kodakweb:
+1. Clone this repository:
 
+   ```bash
+   git clone https://github.com/kodakwebservices/kodakweb.git
+   cd kodakweb
+   ```
 
+2. Install dependencies:
 
-cd kodakweb
+   ```bash
+   npm install
+   ```
 
-Install dependencies:
+3. Open the project in your preferred code editor:
 
+   ```bash
+   code .
+   ```
 
+4. Run the development server:
 
-npm install
+   ```bash
+   npm run dev
+   ```
 
-Run the development server:
+   This will start the development server, and you can access the Kodak Web project in your web browser at the specified URL.
 
+5. Save the changes to the README file.
 
+6. Optionally, commit your changes to Git and push them to GitHub:
 
-npm run dev
+   ```bash
+   git add README.md
+   git commit -m "Add instructions for installing dependencies and running development server"
+   git push origin main
+   ```
